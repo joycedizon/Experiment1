@@ -1,0 +1,153 @@
+#include <iostream>
+#include <string>
+#include <conio.h>
+#include <iomanip>
+
+using namespace std;
+
+int main()
+
+{
+	int box, sideline, premium, general_admission;
+
+	int numofboxsold, numofsidelinesold, numofpremiumsold, numofgasold;
+
+	int amountofbox, amountofsideline, amountofpremium, amountofga;
+
+	box=5750;
+	sideline=28000;
+	premium=35700;
+	general_admission=18750;
+
+	amountofbox=250;
+	amountofsideline=100;
+	amountofpremium=50;
+	amountofga=25;
+
+	cout << "Box = " << amountofbox << endl;
+	cout << "Sideline = " << amountofsideline << endl;
+	cout << "Premium = " << amountofpremium << endl;
+	cout << "General Admission = " << amountofga << endl;
+
+	cout << " " << endl;
+
+	cout << "Tickets Bought for Game 1" << endl;
+
+	cout << " " << endl;
+
+	cout << "Total Number of Box Ticket = " << endl;
+	cin >> numofboxsold;
+	cout << "Total Number of Sideline Ticket = " << endl;
+	cin >> numofsidelinesold;
+	cout << "Total Number of Premium Ticket = " << endl;
+	cin >> numofpremiumsold;
+	cout << "Total Number of General Admission = " << endl;
+	cin >> numofgasold;
+
+	cout << " " << endl;
+
+	cout << "Total Amount of Box Tickets = " << numofboxsold * amountofbox << endl;
+	cout << "Total Amount of Sideline Tickets = " << numofsidelinesold * amountofsideline << endl;
+	cout << "Total Amount of Premium Tickets = " << numofpremiumsold * amountofsideline << endl;
+	cout << "Total Amount of General Admission = " << numofgasold * amountofga << endl;
+	
+	cout << " " << endl;
+
+	cout << "Total Amount of Tickets = " << numofboxsold + numofsidelinesold + numofpremiumsold + numofgasold << endl;
+	cout << "Total Amount Purchase = " << (numofboxsold * amountofbox) + (numofsidelinesold * amountofsideline) + 
+		(numofpremiumsold * amountofsideline) + (numofgasold * amountofga) << endl;
+
+	int b, sl, p, ga;
+
+	cout << " " << endl;
+
+	cout << "Tickets Bought for Game 2" << endl;
+
+	cout << " " << endl;
+
+	cout << "Total Number of Box Ticket = " << endl;
+	cin >> b;
+	cout << "Total Number of Sideline Ticket = " << endl;
+	cin >> sl;
+	cout << "Total Number of Premium Ticket = " << endl;
+	cin >> p;
+	cout << "Total Number of General Admission = " << endl;
+	cin >> ga;
+
+	cout << " " << endl;
+
+	cout << "Total Amount of Box Tickets = " << b * amountofbox << endl;
+	cout << "Total Amount of Sideline Tickets = " << sl * amountofsideline << endl;
+	cout << "Total Amount of Premium Tickets = " << p * amountofsideline << endl;
+	cout << "Total Amount of General Admission = " << ga * amountofga << endl;
+	
+	cout << " " << endl;
+
+	cout << "Total Amount of Tickets = " << b + sl + p + ga << endl;
+	cout << "Total Amount Purchase = " << (b * amountofbox) + (sl * amountofsideline) + 
+		(p * amountofsideline) + (ga * amountofga) << endl;
+
+	int bb, ss, pp, gg;
+
+	cout << " " << endl;
+
+	cout << "Tickets Bought for Game 3" << endl;
+
+	cout << " " << endl;
+
+	cout << "Total Number of Box Ticket = " << endl;
+	cin >> bb;
+	cout << "Total Number of Sideline Ticket = " << endl;
+	cin >> ss;
+	cout << "Total Number of Premium Ticket = " << endl;
+	cin >> pp;
+	cout << "Total Number of General Admission = " << endl;
+	cin >> gg;
+
+	cout << " " << endl;
+
+	cout << "Total Amount of Box Tickets = " << bb * amountofbox << endl;
+	cout << "Total Amount of Sideline Tickets = " << ss * amountofsideline << endl;
+	cout << "Total Amount of Premium Tickets = " << pp * amountofsideline << endl;
+	cout << "Total Amount of General Admission = " << gg * amountofga << endl;
+	
+	cout << " " << endl;
+
+	cout << "Total Amount of Tickets = " << bb + ss + pp + gg << endl;
+	cout << "Total Amount Purchase = " << (bb * amountofbox) + (ss * amountofsideline) + 
+		(pp * amountofsideline) + (gg * amountofga) << endl;
+    
+	int bx, side, prem, gen;
+
+	cout << " " << endl;
+
+	cout << "Tickets Bought for Game 4" << endl;
+
+	cout << " " << endl;
+
+	cout << "Total Number of Box Ticket = " << endl;
+	cin >> bx;
+	cout << "Total Number of Sideline Ticket = " << endl;
+	cin >> side;
+	cout << "Total Number of Premium Ticket = " << endl;
+	cin >> prem;
+	cout << "Total Number of General Admission = " << endl;
+	cin >> gen;
+
+	cout << " " << endl;
+
+	cout << "Total Amount of Box Tickets = " << bx * amountofbox << endl;
+	cout << "Total Amount of Sideline Tickets = " << side * amountofsideline << endl;
+	cout << "Total Amount of Premium Tickets = " << prem * amountofsideline << endl;
+	cout << "Total Amount of General Admission = " << gen * amountofga << endl;
+	
+	cout << " " << endl;
+
+	cout << "Total Amount of Tickets = " << bx + side + prem + gen << endl;
+	cout << "Total Amount Purchase = " << (bx * amountofbox) + (side * amountofsideline) + 
+		(prem * amountofsideline) + (gen * amountofga) << endl;
+
+	_getch();
+	return 0;
+
+}
